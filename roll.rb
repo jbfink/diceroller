@@ -7,5 +7,9 @@ totals = []
  totals.push(dice.sample)
  no_of_rolls += 1
 end
+totals.each do |count|
+ sum += count
+end
+puts sum
 totals
 end
