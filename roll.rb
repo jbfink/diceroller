@@ -1,5 +1,5 @@
-def roll(times)
-dice = (1..6).to_a
+def roll(sides, times)
+dice = (1..sides).to_a
 sum = 0
 no_of_rolls = 0
 totals = []
