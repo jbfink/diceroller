@@ -1,4 +1,4 @@
-def roll(sides, times)
+def roll(times,sides)
 dice = (1..sides).to_a
 sum = 0
 no_of_rolls = 0
