@@ -7,5 +7,5 @@ totals = []
  totals.push(dice.sample)
  no_of_rolls += 1
 end
-puts totals
+totals
 end
