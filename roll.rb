@@ -1,3 +1,6 @@
+times = ARGV[0]
+sides = ARGV[1]
+puts sides
 def roll(times,sides)
 dice = (1..sides).to_a
 sum = 0
